@@ -35,14 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Função para sortear amigos (um por vez sem repetir)
-    window.sortearAmigo = function sortearAmigo() {
-        const listaResultados = document.getElementById("resultado");
-
-        // Valida se há amigos suficientes
-        if (amigos.length < 1) {
-            alert("Adicione amigos para realizar o sorteio.");
-            return;
+    
         }
 
         // Verifica se todos já foram sorteados
